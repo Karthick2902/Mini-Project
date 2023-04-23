@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+    }    
+    nav {
+    float: left;
+    margin-top: 10px;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: .3s ease;
+    }
+    nav li a:hover {
+    color: #f7d33c;
+    }
+    
+    nav .active a {
+    color: #f7d33c;
+    }
+    
+    h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    }
+    
+    .intro {
+    background-color: #fff;
+    color: #000;
+    padding: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .intro h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    }
+    
+    .features {
+    background-color: #f7d33c;
+    color: #fff;
+    padding: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .features h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    }
+    
+    .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .features li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    }
+    
+    .team {
+    background-color: #fff;
+    color: #000;
+    padding: 50px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    }
+    
+    .team h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    }
+    
+    

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RHR-Rooms</title>
+    <link rel="stylesheet" href="rooms.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="nav_bar">
+        <div class="nav_container">
+            <div class="logo">
+                <img src="Images/Logo-2.png" alt="company logo">
+            </div>
+            <div class="nav_list">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <!-- <li><a href="#">Houses</a></li> -->
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="login.html">Login/Signup</a></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!-- =============================================================FILTER SECTION=========================================================== -->
+<!-- <section id="filter_section">
+    <div class="filter_container">
+        <span class="filter_title">FILTERS</span>
+        <div class="filter_price">
+            <span class="price_title">Price range</span>
+            <select class="price_select">
+                <option>UNDER 500</option>
+                <option class="mgbtom">UNDER 1000</option>
+                <option class="mgbtom">UNDER 2000</option>
+                <option class="mgbtom">UNDER 3000</option>
+                <option class="mgbtom">UNDER 4000</option>
+                <option class="mgbtom">UNDER 5000</option>
+                <option class="mgbtom">above 5000</option>
+            </select>
+        </div>
+        <div class="filter_place">
+            <span class="place_title">Place</span>
+            <select class="place_select">
+                <option>Coimbatore</option>
+                <option>Tirupur</option>
+                <option>Pollachi</option>
+                <option>Udumalpet</option>
+                <option>Dharapuram</option>
+            </select>
+        </div>
+    </div>
+</section> -->
+<!-- =============================================================SEARCH SECTION============================================================ -->
+<section id="search_section">
+    <div class="search_container">
+        <div class="search_heading">
+            <span class="s_tit">Search</span>
+        </div>
+        <div class="s_bar">
+            <input type="text" name="" id="search_item" placeholder="Search City" onkeyup="search()">
+            <button onclick="search()" class="btn_search">Search</button>
+        </div>
+    </div>
+</section>
+<!-- =============================================================ROOMS SECTION=========================================================== -->
+<section id="room_section">
+    <div class="room_container" id="room_list">
+        <div class="room_indu">
+            <a href="Rooms/cberoom1.html" target="_blank">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Coimbatore</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Coimbatore</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Pollachi</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Dharapuram</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Tirupur</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Udumalpet</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Tirupur</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Pollachi</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Dharapuram</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Udumalpet</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Pollachi</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Dharapuram</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Tirupur</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Title</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Coimbatore</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Pollachi</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Dharapuram</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+        <div class="room_indu">
+            <a href="#">
+                <div class="room_img">
+                    <img src="Images/image/banner/vip/vip3.jpg" alt="Room-1 Immage">
+                </div>
+                <div class="room_info">
+                    <span class="title">Udumalpet</span>
+                    <p class="sub_title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                    <div class="room_price">
+
+                        <span class="inr_sym">$</span>
+                        <span class="price">20,000</span>
+                        <button class="buybtn">view more</button>
+                    </div> 
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- <footer>
+    <p>&copy; 2023 Hotel Booking. All rights reserved.</p>
+</footer> -->
+<script src="search.js"></script>
+</body>
+</html>
